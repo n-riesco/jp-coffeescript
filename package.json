@@ -25,6 +25,7 @@
         "jp-coffee": "bin/jp-coffeescript.js"
     },
     "dependencies": {
+        "coffee-script": "latest",
         "jmp": "<0.1.0",
         "node-uuid": "^1.4.2"
     },
