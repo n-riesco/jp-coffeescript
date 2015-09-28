@@ -163,7 +163,7 @@ function parseCommandArgs(context) {
             context.args.kernel.push("--hide-undefined");
 
         } else if (e.lastIndexOf("--jp-install=", 0) === 0) {
-            context.flag.install = e.slice(14);
+            context.flag.install = e.slice(13);
             if (context.flag.install !== "local" &&
                 context.flag.install !== "global") {
                 console.error(
