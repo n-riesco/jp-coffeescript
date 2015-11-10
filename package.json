@@ -1,6 +1,6 @@
 {
     "name": "jp-coffeescript",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "jp-CoffeeScript is a CoffeeScript kernel for the Jupyter notebook",
     "keywords": [
         "coffeescript",
