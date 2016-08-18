@@ -60,5 +60,4 @@ requests, submission of tutorials...
 
 # TO DO
 
-- Implement NEL package in CoffeeScript
 - Add tests
