@@ -23,6 +23,9 @@
     },
     "bin": {
         "jp-coffee": "bin/jp-coffeescript.js",
+        "jp-coffee-console": "bin/jp-coffeescript-console.js",
+        "jp-coffee-install": "bin/jp-coffeescript-install.js",
+        "jp-coffee-notebook": "bin/jp-coffeescript-notebook.js",
         "jp-coffee-kernel": "lib/kernel.js"
     },
     "dependencies": {
