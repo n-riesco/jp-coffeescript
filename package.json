@@ -22,7 +22,8 @@
         "url": "https://github.com/n-riesco/jp-coffeescript.git"
     },
     "bin": {
-        "jp-coffee": "bin/jp-coffeescript.js"
+        "jp-coffee": "bin/jp-coffeescript.js",
+        "jp-coffee-kernel": "lib/kernel.js"
     },
     "dependencies": {
         "coffee-script": "^1.7.0",
