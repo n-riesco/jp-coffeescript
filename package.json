@@ -26,10 +26,10 @@
     },
     "dependencies": {
         "coffee-script": "^1.7.0",
-        "jp-kernel": "0.0.x"
+        "jp-kernel": "0.1"
     },
     "devDependencies": {
-        "debug": "latest",
+        "debug": "2",
         "jsdoc": "latest",
         "jshint": "latest"
     },
