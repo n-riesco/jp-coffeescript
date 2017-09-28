@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "coffee-script": "^1.7.0",
-        "jp-kernel": "0.1"
+        "jp-kernel": "^0.1.4"
     },
     "devDependencies": {
         "debug": "2",
