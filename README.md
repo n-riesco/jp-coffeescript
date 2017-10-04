@@ -54,7 +54,7 @@ further details.
 
 ### `jp-coffee-install`: jp-CoffeeScript kernel spec installer
 
-'jp-coffee-install` registers the jp-CoffeeScript kernel with Jupyter, so that
+`jp-coffee-install` registers the jp-CoffeeScript kernel with Jupyter, so that
 other tools (e.g. the Jupyter notebook) can invoke it. The following command
 flags are recognised:
 
