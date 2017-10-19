@@ -185,6 +185,7 @@ function parseCommandArgs(context) {
 
         } else if (e === FLAG_VERSIONS) {
             console.log("jp-coffeescript", context.packageJSON.version);
+            console.log("coffee-script", require("coffee-script").VERSION);
             console.log("jmp", getPackageVersion("jmp"));
             console.log("jp-kernel", getPackageVersion("jp-kernel"));
             console.log("nel", getPackageVersion("nel"));
