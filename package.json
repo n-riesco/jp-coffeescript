@@ -34,12 +34,16 @@
     },
     "devDependencies": {
         "debug": "2",
+        "jmp": "^0.7.5",
         "jsdoc": "latest",
-        "jshint": "latest"
+        "jshint": "latest",
+        "mocha": "3",
+        "uuid": "^3.0.1"
     },
     "scripts": {
         "doc": "jsdoc -R README.md -d docs bin lib",
-        "lint": "jshint bin/ lib/ test/",
-        "test": "npm run lint && node test/index.js"
+        "lint": "jshint bin lib",
+        "test:mocha": "mocha lib/**/*.spec.js",
+        "test": "npm run lint && npm run test:mocha"
     }
 }
