@@ -128,6 +128,15 @@ function getPackageVersion(packageName) {
     return packageJSON.version;
 }
 
+function printVersions() {
+    console.log("coffee-script", require("coffee-script").VERSION);
+    console.log("jmp", getPackageVersion("jmp"));
+    console.log("jp-kernel", getPackageVersion("jp-kernel"));
+    console.log("nel", getPackageVersion("nel"));
+    console.log("uuid", getPackageVersion("uuid"));
+    console.log("zeromq", getPackageVersion("zeromq"));
+}
+
 function setJupyterInfoAsync(context, callback) {
     exec("jupyter --version", function(error, stdout, stderr) {
         if (error) {
@@ -345,6 +354,7 @@ module.exports = {
     installKernelAsync: installKernelAsync,
     log: log,
     makeTmpdir: makeTmpdir,
+    printVersions: printVersions,
     readPackageJson: readPackageJson,
     setIPythonInfoAsync: setIPythonInfoAsync,
     setJupyterInfoAsync: setJupyterInfoAsync,

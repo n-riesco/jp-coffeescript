@@ -47,6 +47,7 @@ var getPackageVersion = rc.getPackageVersion;
 var installKernelAsync = rc.installKernelAsync;
 var log = rc.log;
 var makeTmpdir = rc.makeTmpdir;
+var printVersions = rc.printVersions;
 var readPackageJson = rc.readPackageJson;
 var setIPythonInfoAsync = rc.setIPythonInfoAsync;
 var setJupyterInfoAsync = rc.setJupyterInfoAsync;
@@ -157,11 +158,7 @@ function parseCommandArgs(context) {
 
         } else if (e === FLAG_VERSIONS) {
             console.log("jp-coffeescript", context.packageJSON.version);
-            console.log("jmp", getPackageVersion("jmp"));
-            console.log("jp-kernel", getPackageVersion("jp-kernel"));
-            console.log("nel", getPackageVersion("nel"));
-            console.log("uuid", getPackageVersion("uuid"));
-            console.log("zeromq", getPackageVersion("zeromq"));
+            printVersions();
             process.exit(0);
 
         } else if (e.lastIndexOf(FLAG_WORKING_DIR, 0) === 0) {
