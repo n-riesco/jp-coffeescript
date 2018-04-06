@@ -30,15 +30,15 @@
     },
     "dependencies": {
         "coffee-script": "^1.7.0",
-        "jp-kernel": "^0.1.4"
+        "jp-kernel": "1"
     },
     "devDependencies": {
         "debug": "2",
-        "jmp": "^0.7.5",
+        "jmp": "1",
         "jsdoc": "latest",
         "jshint": "latest",
         "mocha": "3",
-        "uuid": "^3.0.1"
+        "uuid": "3"
     },
     "scripts": {
         "doc": "jsdoc -R README.md -d docs bin lib",
