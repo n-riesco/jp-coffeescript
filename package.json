@@ -34,15 +34,15 @@
     },
     "devDependencies": {
         "debug": "2",
+        "eslint": "4",
         "jmp": "1",
-        "jsdoc": "latest",
-        "jshint": "latest",
+        "jsdoc": "3",
         "mocha": "3",
         "uuid": "3"
     },
     "scripts": {
         "doc": "jsdoc -R README.md -d docs bin lib",
-        "lint": "jshint bin lib",
+        "lint": "eslint bin lib test",
         "test:mocha": "mocha lib/**/*.spec.js",
         "test": "npm run lint && npm run test:mocha"
     }
