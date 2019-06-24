@@ -66,7 +66,7 @@ var console = require("console");
 var fs = require("fs");
 var path = require("path");
 
-var cs = require("coffee-script");
+var cs = require("coffeescript");
 var csOptions = {bare: true};
 
 var Kernel = require("jp-kernel");
@@ -97,7 +97,7 @@ log = global.DEBUG ? doLog : dontLog;
 
 // Setup session initialisation
 config.startupCallback = function startupCallback() {
-    var requirePath = require.resolve("coffee-script/register");
+    var requirePath = require.resolve("coffeescript/register");
     var code = 'require("' + requirePath + '");';
     this.session.execute(code, {
         onSuccess: function() {

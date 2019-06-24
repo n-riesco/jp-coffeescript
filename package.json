@@ -29,7 +29,7 @@
         "jp-coffee-kernel": "lib/kernel.js"
     },
     "dependencies": {
-        "coffee-script": "^1.7.0",
+        "coffeescript": "^2.4",
         "jp-kernel": "1"
     },
     "devDependencies": {
