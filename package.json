@@ -29,7 +29,7 @@
         "jp-coffee-kernel": "lib/kernel.js"
     },
     "dependencies": {
-        "coffeescript": "^2.4",
+        "coffeescript": "2",
         "jp-kernel": "1"
     },
     "devDependencies": {
@@ -39,6 +39,9 @@
         "jsdoc": "3",
         "mocha": "3",
         "uuid": "3"
+    },
+    "engines": {
+        "node": ">=6"
     },
     "scripts": {
         "doc": "jsdoc -R README.md -d docs bin lib",
