@@ -30,12 +30,12 @@
     },
     "dependencies": {
         "coffeescript": "2",
-        "jp-kernel": "1"
+        "jp-kernel": "2"
     },
     "devDependencies": {
         "debug": "2",
         "eslint": "2",
-        "jmp": "1",
+        "jmp": "2",
         "jsdoc": "3",
         "mocha": "3",
         "uuid": "3"
